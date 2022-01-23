@@ -1,5 +1,5 @@
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background-color: #f5f7fa;
   padding: 100px 90px;
 }
@@ -9,9 +9,11 @@ body {
   flex-direction: row-reverse;
   width: 1200px;
   background-color: #ffff;
-  margin: 40 px auto;
+  margin: 40px;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
   padding: 100px 90px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /* Main content section */
@@ -126,7 +128,7 @@ body {
 }
 
 .my-work-experience-divider {
-  color: #000000;
+  color: #a8a8a8;
 }
 
 .my-work-experience-duties {
