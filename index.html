@@ -1,156 +1,206 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My resume</title>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Резюме Алексея Филоненко — начинающий Bitrix-разработчик, вёрстка, PHP, JavaScript."
+    />
+    <meta property="og:title" content="Алексей Филоненко — Bitrix-разработчик" />
+    <meta
+      property="og:description"
+      content="Резюме: Bitrix, PHP, HTML, CSS, JavaScript. Учебные и командные проекты."
+    />
+    <title>Алексей Филоненко — Bitrix-разработчик</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-
-        <!-- Main container -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
     <div class="main-container">
-        <!-- Main container section -->
-        <div class="main-content-section">
-            <!-- About me section -->
-            <div class="about-me-section">
-                <h2 class="about-me-proffesion">Beginner bitrix developer</h2>
-                <h1 class="about-me-name">Alexey Filonenko</h1>
-            </div>
+      <main class="main-content-section">
+        <header class="about-me-section">
+          <p class="about-me-profession">Начинающий Bitrix-разработчик</p>
+          <h1 class="about-me-name">Алексей Филоненко</h1>
+          <p class="about-me-description">
+            Верстаю адаптивные страницы и изучаю 1С-Битрикс и PHP. Есть опыт командной работы по
+            Scrum и учебных frontend-проектов на HTML, CSS, JavaScript и React.
+          </p>
+        </header>
 
-            <!-- My projects section -->
-            <div class="my-projects-section">
-                <h3 class="main-content-title">Projects</h3>
+        <section class="my-projects-section" aria-labelledby="projects-title">
+          <h2 class="main-content-title" id="projects-title">Проекты</h2>
 
-                <ol class="my-projects-list">
-                    <li class="my-projects-item">
-                        <span class="my-projects-text">
-                            <a href="https://alexfilonenko88.github.io/goit-markup-hw-08/" class="my-projects-link">Индивидуальный проект на  GoIt</a>
-                            .........
-                            <span class="my-projects-bracet">[ HTML5, CSS3 ]</span>
-                        </span>
-                    </li>
-                    <li class="my-projects-item">
-                        <span class="my-projects-text">
-                            <a href="https://sharvashidze.github.io/positiveteam/" class="my-projects-link">Командный проект на GoIt</a>
-                            .........
-                            <span class="my-projects-bracet">[ HTML5, CSS3 ]</span>
-                        </span>
-                    </li>
-                    <li>
-                        <span class="my-projects-text">
-                            <a href="https://alexfilonenko88.github.io/dop-practis/" class="my-projects-link">Командный проект</a>
-                            ..........
-                            <span class="my-projects-bracet">[ HTML5, CSS3 ]</span>
-                        </span>
-                    </li>
-                    <li class="my-projects-item">
-                        <span class="my-projects-text">
-                            <a href="https://alexfilonenko88.github.io/My-resume/" class="my-projects-link">Мое резюме</a>
-                            .........
-                            <span class="my-projects-bracet">[ HTML5, CSS3 ]</span>
-                        </span>
-                    </li>
-                </ol>
+          <ol class="my-projects-list">
+            <li class="my-projects-item">
+              <a
+                href="https://alexfilonenko88.github.io/goit-markup-hw-08/"
+                class="my-projects-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Индивидуальный проект GoIT</a
+              >
+              <p class="my-projects-text">
+                Адаптивная семантическая вёрстка лендинга.
+                <span class="my-projects-stack">HTML5, CSS3</span>
+              </p>
+            </li>
+            <li class="my-projects-item">
+              <a
+                href="https://sharvashidze.github.io/positiveteam/"
+                class="my-projects-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Командный проект GoIT</a
+              >
+              <p class="my-projects-text">
+                Совместная вёрстка, работа в команде и Scrum.
+                <span class="my-projects-stack">HTML5, CSS3</span>
+              </p>
+            </li>
+            <li class="my-projects-item">
+              <a
+                href="https://alexfilonenko88.github.io/dop-practis/"
+                class="my-projects-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Дополнительная практика</a
+              >
+              <p class="my-projects-text">
+                Командная вёрстка учебного проекта.
+                <span class="my-projects-stack">HTML5, CSS3</span>
+              </p>
+            </li>
+            <li class="my-projects-item">
+              <a
+                href="https://alexfilonenko88.github.io/My-resume/"
+                class="my-projects-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Это резюме</a
+              >
+              <p class="my-projects-text">
+                Одностраничное резюме с адаптивной вёрсткой.
+                <span class="my-projects-stack">HTML5, CSS3</span>
+              </p>
+            </li>
+          </ol>
+        </section>
 
+        <section class="my-work-experience-section" aria-labelledby="experience-title">
+          <h2 class="main-content-title" id="experience-title">Опыт</h2>
 
-            </div>
+          <div class="my-work-experience-company-block">
+            <h3 class="my-work-experience-position">
+              Frontend <span class="my-work-experience-company">Учебные проекты</span>
+            </h3>
+            <p class="my-work-experience-period">Сентябрь 2021 — Июль 2022</p>
+            <ul class="my-work-experience-duties">
+              <li class="my-work-experience-duty">
+                Семантическая валидная вёрстка личного и командного проектов с адаптивом.
+              </li>
+              <li class="my-work-experience-duty">
+                В командном проекте выполнял роль начинающего Scrum-мастера.
+              </li>
+            </ul>
+          </div>
+        </section>
 
-            <!-- My work experience section -->
-            <div class="my-work-experience-section">
-                <h3 class="main-content-title">Work Experience</h3>
+        <section class="my-education-section" aria-labelledby="education-title">
+          <h2 class="main-content-title" id="education-title">Образование</h2>
 
-                <!-- Company 3 -->
-                <div class="my-work-experience-company-block">
-                    <h4 class="my-work-experience-position">Frontend<span class="my-work-experience-company"> Учебные проекты</span></h4>
-                    <p class="my-work-experience-period">September 2021 - July 2022
-                    <ul class="my-work-experience-duties">
-                        <li class="my-work-experience-duty">Семантически, валидная верстка двух проектов (один личный и один командный проект); при разработке используется адаптивность.</li>
-                        <li class="my-work-experience-duty">При разработке командного проекта, удалось побывать в роли scrum beginner.</li>
-                    </ul>
-                </div>
+          <div class="my-education-item">
+            <h3 class="my-education-university">Academy Fact</h3>
+            <p class="my-education-work">Начинающий Bitrix-разработчик</p>
+            <p class="my-education-period">Сентябрь 2023 — Январь 2024</p>
+            <p class="my-education-note">Изучение фреймворка 1С-Битрикс</p>
+          </div>
+          <div class="my-education-item">
+            <h3 class="my-education-university">GoIT</h3>
+            <p class="my-education-work">Junior Frontend</p>
+            <p class="my-education-period">Сентябрь 2021 — Июль 2022</p>
+            <p class="my-education-note">Начальные знания JavaScript и React</p>
+          </div>
+          <div class="my-education-item">
+            <h3 class="my-education-university">Кубанский государственный университет</h3>
+            <p class="my-education-work">Управление персоналом</p>
+            <p class="my-education-period">Сентябрь 2013 — Июнь 2015</p>
+          </div>
+          <div class="my-education-item">
+            <h3 class="my-education-university">Кубанский государственный технологический университет</h3>
+            <p class="my-education-work">Экономика и управление</p>
+            <p class="my-education-period">Сентябрь 2006 — Июнь 2012</p>
+          </div>
+        </section>
+      </main>
 
-                <!-- Education -->
-                <div>
-                    <h4 class="main-content-title-educ">Education</h4>
-                    <p><span class="my-education-university">Academy Fact</span></p>
-                    <p class="my-education-work">Beginner bitrix developer</p>
-                    <h6 class="my-education-period">September 2023 - January 2024</h6>
-                    <p class="my-education-work">В процессе изучения bitrix фремворка</p>
-                </div>
-                <div>
-                    <p><span class="my-education-university">Go It</span></p>
-                    <p class="my-education-work">Junior Frontend</p>
-                    <h6 class="my-education-period">September 2021 - July 2022</h6>
-                    <p class="my-education-work">Начальные знания JavaScript и React</p>
-                </div>
-                <div>
-                    <p><span class="my-education-university">Kuban State University</span></p>
-                    <p class="my-education-work">Personnel management</p>
-                    <h6 class="my-education-period">September 2013- June 2015</h6>
-                </div>
-                <div>
-                    <p><span class="my-education-university">Kuban State Technological University</span></p>
-                    <p class="my-education-work">Economy Management</p>
-                    <h6 class="my-education-period">September 2006 - June 2012</h6>
-                </div>
+      <aside class="sidebar-section">
+        <img
+          class="my-photo"
+          src="img/photo1.jpg"
+          width="320"
+          height="320"
+          alt="Фотография Алексея Филоненко"
+        />
 
-            </div>
+        <section class="contacts-section" aria-labelledby="contacts-title">
+          <h2 class="sidebar-title" id="contacts-title">Контакты</h2>
+          <address class="contacts-list">
+            <p class="contacts-row">
+              <span class="contacts-section-type">Т:</span>
+              <a class="contacts-section-type-link" href="tel:+79094688660">+7 909 468 86 60</a>
+            </p>
+            <p class="contacts-row">
+              <span class="contacts-section-type">E:</span>
+              <a class="contacts-section-type-link" href="mailto:aleksey.filonenko15@yandex.ru"
+                >aleksey.filonenko15@yandex.ru</a
+              >
+            </p>
+            <p class="contacts-row">
+              <span class="contacts-section-type">GitHub:</span>
+              <a
+                class="contacts-section-type-link"
+                href="https://github.com/alexfilonenko88"
+                target="_blank"
+                rel="noopener noreferrer"
+                >alexfilonenko88</a
+              >
+            </p>
+          </address>
+        </section>
 
-        </div>
+        <section class="tech-skills-section" aria-labelledby="tech-title">
+          <h2 class="sidebar-title" id="tech-title">Навыки</h2>
+          <ul class="tech-skills-list">
+            <li class="tech-skills-item"><span class="tech-skills-item-text">Bitrix</span></li>
+            <li class="tech-skills-item"><span class="tech-skills-item-text">PHP</span></li>
+            <li class="tech-skills-item"><span class="tech-skills-item-text">HTML5</span></li>
+            <li class="tech-skills-item"><span class="tech-skills-item-text">CSS3</span></li>
+            <li class="tech-skills-item"><span class="tech-skills-item-text">JavaScript</span></li>
+            <li class="tech-skills-item"><span class="tech-skills-item-text">React</span></li>
+            <li class="tech-skills-item"><span class="tech-skills-item-text">Git</span></li>
+            <li class="tech-skills-item"><span class="tech-skills-item-text">Trello</span></li>
+            <li class="tech-skills-item"><span class="tech-skills-item-text">Scrum</span></li>
+          </ul>
+        </section>
 
-            <!-- Sidebar section -->
-
-            <aside class="sidebar-section">
-                <img class="my-photo" src="img/photo1.jpg" loading="lazy " alt="my photo">
-
-                <!-- Contacts section -->
-                <div class="contacts-section">
-                    <h3 class="sidebar-title">Contacts</h3>
-                    <div>
-                        <span class="contacts-section-type">T:</span>
-                        <a class="contacts-section-type-link" href="tel:+77777777777">+7 909 468 86 60</a>
-                    </div>
-                    <div>
-                        <span class="contacts-section-type">E:</span>
-                        <a class="contacts-section-type-link" href="mailto:aleksey.filonenko15@yandex.ru">aleksey.filonenko15@yandex.ru</a>
-                    </div>
-                </div>
-
-                <!-- Tech Skills section -->
-                <div class="tech-skills-section">
-                    <h3 class="sidebar-title">Tech Skills</h3>
-                    <ul class="tech-skills-list">
-                        <li class="tech-skills-item"> <span class="tech-skills-item-text">Bitrix</span></li>
-                        <li class="tech-skills-item"> <span class="tech-skills-item-text">Php</span></li>
-                        <li class="tech-skills-item"> <span class="tech-skills-item-text">HTML5</span> </li>
-                        <li class="tech-skills-item"> <span class="tech-skills-item-text">CSS3</span></li>
-                        <li class="tech-skills-item"> <span class="tech-skills-item-text">JavaScript</span></li>
-                        <li class="tech-skills-item"> <span class="tech-skills-item-text">React</span></li>
-                    </ul>
-                </div>
-
-                <!-- Soft Skills section -->
-                <div class="tech-skills-section">
-                    <h3 class="sidebar-title">Soft Skills</h3>
-                    <ul class="tech-skills-list">
-                        <li class="tech-skills-item"> <span class="tech-skills-item-text">Scrum beginner</span> </li>
-                        <li class="tech-skills-item"> <span class="tech-skills-item-text">Trello</span> </li>
-                        <li class="tech-skills-item"> <span class="tech-skills-item-text">GIT</span></li>
-                        <li class="tech-skills-item"> <span class="tech-skills-item-text">Teamwork</span></li>
-                        <li class="tech-skills-item"> <span class="tech-skills-item-text">Пунктуальность</span></li>
-                        <li class="tech-skills-item"> <span class="tech-skills-item-text">Организованность</span></li>
-                        <li class="tech-skills-item"> <span class="tech-skills-item-text">Ответственность</span></li>
-                    </ul>
-                </div>
-            </aside>
+        <section class="tech-skills-section" aria-labelledby="soft-title">
+          <h2 class="sidebar-title" id="soft-title">Личные качества</h2>
+          <ul class="tech-skills-list">
+            <li class="tech-skills-item"><span class="tech-skills-item-text">Командная работа</span></li>
+            <li class="tech-skills-item"><span class="tech-skills-item-text">Пунктуальность</span></li>
+            <li class="tech-skills-item"><span class="tech-skills-item-text">Организованность</span></li>
+            <li class="tech-skills-item"><span class="tech-skills-item-text">Ответственность</span></li>
+          </ul>
+        </section>
+      </aside>
     </div>
-
-</body>
+  </body>
 </html>
