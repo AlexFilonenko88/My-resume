@@ -50,7 +50,7 @@ a:focus-visible {
 .main-content-title {
   font-weight: 700;
   font-size: 22px;
-  line-height: 27px;
+  line-height: 1.2;
   color: var(--color-text);
   margin: 0 0 16px;
 }
@@ -62,7 +62,7 @@ a:focus-visible {
 .about-me-profession {
   font-weight: 700;
   font-size: 14px;
-  line-height: 17px;
+  line-height: 1.2;
   color: var(--color-text);
   margin: 0 0 12px;
 }
@@ -185,7 +185,7 @@ a:focus-visible {
 .my-education-work {
   font-weight: 700;
   font-size: 14px;
-  line-height: 17px;
+  line-height: 1.2;
   color: var(--color-text);
   margin: 0 0 4px;
 }
@@ -221,7 +221,7 @@ a:focus-visible {
 .sidebar-title {
   font-weight: 700;
   font-size: 22px;
-  line-height: 27px;
+  line-height: 1.2;
   color: var(--color-sidebar-text);
   margin: 0 0 12px;
 }
@@ -265,7 +265,7 @@ a:focus-visible {
 
 .tech-skills-list {
   margin: 0;
-  padding: 0 0 0 17px;
+  padding: 0 0 0 18px;
 }
 
 .tech-skills-item {
